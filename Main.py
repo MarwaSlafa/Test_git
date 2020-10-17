@@ -1,6 +1,5 @@
 from PyQt5.QtCore import QDir, Qt, QUrl,QRect
-#from PyQt5.QtMultimedia import QMediaContent, QMediaPlayer
-#from PyQt5.QtMultimediaWidgets import QVideoWidget
+
 from PyQt5.QtWidgets import (QApplication, QFileDialog, QHBoxLayout, QLabel,
         QPushButton, QSizePolicy, QSlider, QStyle, QVBoxLayout, QWidget)
 from PyQt5.QtWidgets import QMainWindow,QWidget, QPushButton, QAction,QScrollArea,QDesktopWidget
@@ -11,15 +10,14 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 import sys
-#from traitementRail import Rail
-#from 
+
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
 
 
 #_____________________________________________________________________________________________________           
-class Anomaly1(QMainWindow):
+class Anomaly2(QMainWindow):
 
     def __init__(self, parent=None):
         super(Anomaly1, self).__init__(parent)
@@ -151,19 +149,6 @@ border-radius:1px;
 
     def openRail(self):
         from traitementRail import Rail
-        #self.hide()
-        #self.MainWindow = QtWidgets.QMainWindow()
-        #self.ui = Rail()
-        #self.ui.setupUi(self.MainWindow)
-        #self.MainWindow.show()
-
-        #self.ui.setupUi(window)
-        #MainWindow.hide
-        #self.ui.setFixedSize(880, 900)
-        #self.ui.setFixedSize(1500, 900)
-        #self.ui.show()
-        #self.window.show()
-
 
         self.window=QtWidgets.QMainWindow()
         self.ui=Rail()
@@ -176,19 +161,10 @@ border-radius:1px;
     def openGeneral(self):
         
         from traitementGeneral import General
-        #self.hide()
-        #self.MainWindow = QtWidgets.QMainWindow()
-        
-        #self.ui = General()
-        #print("J'ai créer generaaal")
-        #self.ui.setupUi(self.MainWindow)
-        #self.ui.setupUi(self)
-        #self.MainWindow.show()
+
         self.window=QtWidgets.QMainWindow()
         self.ui=General()
-        #self.ui.setupUi(self.window)
         self.hide()
-        #MainWindow.hide()
         self.ui.setFixedSize(1500, 900)
         self.ui.show()
 
@@ -204,8 +180,7 @@ if __name__ == '__main__':
     k=1
     app = QApplication(sys.argv)
 
-    player = Anomaly1()
-    #player.setFixedSize(840, 680)
+    player = Anomaly2()
     
     player.setFixedSize(1500, 900)
     player.show()
