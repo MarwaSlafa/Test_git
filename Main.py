@@ -13,7 +13,7 @@ import sys
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
-# Commit a supprimeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeer
+
 
 
 #_____________________________________________________________________________________________________           
