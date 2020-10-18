@@ -13,7 +13,7 @@ import sys
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
-
+#modification 1 dans branche Thirsty :::::::::::::::::::
 
 
 #_____________________________________________________________________________________________________           
