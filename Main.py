@@ -15,7 +15,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 
 
 
-
+# Modification dans Main aprés avoir faire deux modif dans les branche
 #_____________________________________________________________________________________________________           
 class Anomaly2(QMainWindow):
 
