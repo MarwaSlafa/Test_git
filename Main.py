@@ -13,9 +13,16 @@ import sys
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
+#modification 1 dans branche Thirsty :::::::::::::::::::
 
 
+<<<<<<< HEAD
 # Modification dans Main aprés avoir faire deux modif dans les branche
+=======
+
+#modification 2 dans branche Thirsty :::::::::::::::::::::::
+
+>>>>>>> thirsty
 #_____________________________________________________________________________________________________           
 class Anomaly2(QMainWindow):
 
