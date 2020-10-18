@@ -20,7 +20,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Anomaly2(QMainWindow):
 
     def __init__(self, parent=None):
-        super(Anomaly1, self).__init__(parent)
+        super(Anomaly2, self).__init__(parent)
         self.setStyleSheet("""QWidget {
                 background: rgb(255, 255, 255);
                 background: #FAFAFA;
@@ -179,7 +179,7 @@ border-radius:1px;
 if __name__ == '__main__':
     k=1
     app = QApplication(sys.argv)
-
+    # Test git difftool HEAD
     player = Anomaly2()
     
     player.setFixedSize(1500, 900)
