@@ -188,7 +188,7 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     # Test git difftool HEAD
     player = Anomaly2()
-    
+    #Brache 2 :::::::::::::::
     player.setFixedSize(1500, 900)
     player.show()
     sys.exit(app.exec_())
