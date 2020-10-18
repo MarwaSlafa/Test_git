@@ -16,6 +16,9 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 #modification 1 dans branche Thirsty :::::::::::::::::::
 
 
+
+#modification 2 dans branche Thirsty :::::::::::::::::::::::
+
 #_____________________________________________________________________________________________________           
 class Anomaly2(QMainWindow):
 
